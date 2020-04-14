@@ -1,0 +1,87 @@
+.pricing {
+    background-color: #333333;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+    font-family: SourceSansPro_Regular;
+}
+
+.pricing .vpn-plan {
+    margin: 0;
+    padding: 0;
+}
+
+.pricing .container .row{
+	margin: 0 auto;
+	width: 80%;
+}
+
+.pricing .container .row >div{
+	margin: 20px 0;
+}
+
+.pricing .container .row  .p_package_content{
+	font-family: SourceSansPro_Black;
+	font-size: 24pt;
+	padding-bottom: 30px;
+	color: #38ace9;
+}
+
+.pricing .vpn-plan .price {
+    background: #38ace9;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.pricing .vpn-plan .duration {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #292929;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5a8197;
+}
+
+.pricing .vpn-plan .feature {
+    background: #fff;
+    color: #3f3f3f;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px inset #f1f1f1;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.pricing .vpn-plan .buy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #38ace9;
+    font-size: 17px;
+    text-transform: uppercase;
+    -webkit-transition: all .2s ease-out;
+}
+
+.pricing .vpn-plan .buy a:visited {
+    color: #fff;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-top: -20px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+}
+.pricing .vpn-plan .buy a:link {
+    color: #fff;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-top: -20px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+}

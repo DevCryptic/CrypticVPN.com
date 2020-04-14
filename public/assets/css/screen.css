@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+	body{padding: 80px 0;}
+	.footer-right {
+	    text-align: left;
+	    float: right;
+	}
+
+	.footer-left {
+	    text-align: right;
+	    float: right;
+	}
+}
+
+@media (max-width: 767px) {
+	.right-content, .left-content{padding: 0;margin-bottom: 20px;}
+	.list-inline{text-align: center;}
+	.footer-right {
+	    text-align: center;
+	}
+}
+
+@media (max-width: 500px) {
+	.list-inline{text-align: center;}
+	.list-inline>li{float: none;display: block;}
+	.list-inline>li.slash{display: none;}
+}
+@media (max-width: 300px) {
+	.left-item, .right-item{float: none;width: 100%;}
+	.right-item{border: 0;}
+	.dash-content>div{padding: 0;}
+}

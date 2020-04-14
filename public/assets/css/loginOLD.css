@@ -1,0 +1,214 @@
+html { min-height: 100%;}
+
+.bg_login{
+	background-repeat: no-repeat;
+	background-image: url(../img/bg_login.png);
+	background-size: cover;
+}
+
+
+.login	a{
+	text-decoration: none;
+}
+
+.login .container .row{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.login .container .row .div_logo{
+	padding: 60px 0 70px 20px;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.login .container .row form{
+	background-color: #fff;
+	padding: 40px 0;
+}
+
+.login .container .row form .div_content{
+	width: 95%;
+	position: relative;
+	padding: 0;
+	float: none;
+	margin: 0 auto;
+}
+
+.login .container .row form .div_content span{
+	position: absolute;
+	top: 13px;
+	left: 13px;
+}
+
+.login .container .row form .div_content input{
+	background-color: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    font-size: 11pt;
+    padding: 6px 20px 6px 35px;
+    border-radius: 4px;
+    font-family: SourceSansPro_Italic;
+    margin: 7px 0;
+}
+
+.login .container .row form .div_content >label{
+	margin-top: 10px;
+}
+
+.login .container .row form .div_content #cb_remember{
+	float: left;
+	width: 25px;
+	margin-top: 4px;
+}
+
+.login .container .row form .div_content input[type=submit], .login .container .row .div_register input[type=button] {
+    background-color: #08c2f1;
+    border: 1px solid #08c2f1;
+    color: #fff;
+    font-size: 13pt;
+    font-family: SourceSansPro_Semibold;
+}
+
+.login .container .row .div_register{
+	background-color: #454545;
+}
+
+.login .container .row .div_register .div_register_cont{
+	width: 95%;
+	padding: 40px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.login .container .row .div_register .div_register_cont p{
+	color: #fff;
+    font-size: 14pt;
+    font-family: SourceSansPro_Regular;
+}
+
+.login .container .row .div_register .div_register_cont input[type=button]{
+	width: 100%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #5b5b5b;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.login .container .row .div_footer{
+	padding-left: 20px;
+	padding-bottom: 70px;
+	width: 95%;
+	margin: 55px auto 0 auto;
+	font-family: SourceSansPro_Regular;
+}
+
+.login .container .row .div_footer .right{
+	width: 50%;
+    float: right;
+    font-size: 13pt;
+    text-align: right;
+    color: #fff;
+}
+
+.login .container .row .div_footer .right a{
+	color: #08c2f1;
+}
+
+.login .container .row .div_footer .left{
+	float: left;
+    color: #fff;
+    font-size: 13pt;
+    width: 50%;
+}
+.bg-red {
+    background: #d74949;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.box-white {
+    background: #fff;
+    padding: 20px;
+}
+.text-red {
+    color: #ff0000;
+}
+.box-login{margin-bottom: 20px;}
+
+
+@media only screen and (max-width: 500px){
+	.login .container .row{
+		width: 100%;
+	}	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.login .container .row .div_footer .right{
+		width: 45% !important;
+	}
+
+	.login .container .row .div_footer .left{
+		width: 55% !important;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.login .container .row .div_logo img{
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	.login .container{
+		padding: 0 !important;
+	}
+
+	.login .container .row .div_logo{
+		padding: 40px 0 !important;
+	}
+
+	.login .container .row .div_footer{
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 494px){
+	.login .container .row .div_footer .right{
+		float: left;
+		font-size: 14pt !important;
+		text-align: left;
+		margin-top: 10px;
+		width: 100% !important;
+	}
+
+	.login .container .row .div_footer .left{
+		clear: both;
+		margin-top: 10px;
+		font-size: 14pt !important;
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 493px){
+	.login .container .row .div_footer{
+		padding-left: 0 !important;
+	}
+
+	.login .container .row .div_footer .right{
+		float: left;
+		font-size: 11pt !important;
+		text-align: left;
+		margin-top: 10px;
+		width: 100% !important;
+	}
+
+	.login .container .row .div_footer .left{
+		clear: both;
+		margin-top: 10px;
+		font-size: 12pt !important;
+		width: 100% !important;
+	}
+}

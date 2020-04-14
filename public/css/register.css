@@ -1,0 +1,74 @@
+.bg_register{
+	background-repeat: no-repeat;
+	background-image: url(../img/bg_register.png);
+	background-position: center top;
+	background-size: cover;
+}
+
+.register .container .row .div_logo{
+	padding-left: 0;
+}
+
+.register .container .row .div_cont{
+	background-color: #fff;
+	font-family: SourceSansPro_Semibold;
+	padding: 6px 20px;
+	opacity: 0.5;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.register .container .row form{
+	padding: 30px 0;
+}
+
+.register .container .row form .div_content p{
+	font-family: SourceSansPro_Semibold;
+	margin-bottom: 0;
+	font-size: 13pt;
+}
+
+.register .container .row form .div_content input{
+	margin-bottom: 15px;
+	padding: 6px 10px; 
+}
+
+.register .container .row form .div_content label{
+	margin-top: 10px;
+}
+
+.register .container .row form .div_content #cb_register{
+	float: left;
+	width: 25px;
+	margin-top: 4px;
+}
+
+.login .container .row .div_register .div_register_cont{
+	padding-top: 30px;
+}
+
+.login .container .row .div_register .div_register_cont .p_register{
+	margin-bottom: 15px;	
+}
+
+.login .container .row .div_register .div_register_cont .p_register a{
+	color: #08c2f1;
+}
+
+@media only screen and (max-width: 415px) and (min-width: 393px){
+	.register .container .row .div_cont{
+		padding: 6px 10px !important;
+	}
+}
+
+@media only screen and (max-width: 393px){
+	.register .container .row .div_cont{
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 350px){
+	.register .container .row form .div_content label{
+		font-size: 9pt;
+	}
+}

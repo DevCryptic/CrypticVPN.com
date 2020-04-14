@@ -1,0 +1,61 @@
+.light-navy {
+    background: #2e2e2e;
+}
+
+.fourth .row{
+	margin: 40px auto;
+	width: 60%;
+}
+
+.fourth .websites {
+    position: relative;
+}
+
+.fourth .container{
+	width: 100%;
+}
+
+.getaccess{
+	padding: 0;
+	background-color: #202020;
+}
+
+.fourth .unlocked-website {
+	height: 88px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.orderad {
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.purchasearea{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.purchasearea .left{
+	float: left;
+}
+
+.orderad .purchasearea h2{
+    font-family: SourceSansPro_Regular;
+    margin:0 auto;
+    color: #fff;
+    font-size: 16pt;
+}
+
+.orderad .purchasearea .purchase {
+    font-family: SourceSansPro_Regular;
+    color: white;
+    font-size: 12pt;
+    background-color: #1aa5e7;
+    border:1px solid #1aa5e7;
+    padding: 5px 30px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
